@@ -1,7 +1,25 @@
+.navbar {
+	width: 100%;
+	margin: 25px;
+}
+
 .content {
-	margin: auto;
+	width: 100%;
 }
 
 .main-photo {
-	width: 256px;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.searchform {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.searchbar {
+	display: block;
+	width: 25%;
+	margin: 0 auto;
 }
