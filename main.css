@@ -3,6 +3,17 @@
 	margin: 25px;
 }
 
+a {
+	text-decoration: none;
+	color: #505050;
+	margin-right: 15px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #707070;
+}
+
 .left {
 	float: left;
 }
@@ -20,12 +31,13 @@
 
 .main-photo {
 	display: block;
-	width: 50%;
+	width: 15%;
 	margin: 0 auto;
+	margin-top: 120px;
 }
 
 .searchform {
-	width: 50%;
+	width: 40%;
 	margin: 0 auto;
 }
 
@@ -33,7 +45,10 @@
 	display: block;
 	width: 75%;
 	margin: 0 auto;
+	padding-left: 15px;
 	height: 40px;
+	border: solid 1px #C7C7C7;
+	border-radius: 2px;
 	box-shadow: 0px 3px 16px 0px rgba(156,153,156,1);
 }
 
