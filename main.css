@@ -14,6 +14,15 @@ a:hover {
 	color: #707070;
 }
 
+i {
+	color: #707070;
+	margin-right: 15px;
+}
+
+i:hover {
+	color: #272727;
+}
+
 .left {
 	float: left;
 }
@@ -53,9 +62,13 @@ a:hover {
 }
 
 .search-button {
-
+	height: 35px;
+	margin-top: 30px;
+	margin-right: 5px;
+	color: #505050;
 }
 
 .lucky-button {
-	
+	height: 35px;
+	color: #505050;
 }
