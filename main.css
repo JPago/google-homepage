@@ -23,13 +23,13 @@ i:hover {
 	color: #272727;
 }
 
-.left {
+.left-header {
 	float: left;
 }
 
-.right {
+.right-header {
 	float: right;
-	margin-right: 50px;
+	margin-right: 40px;
 }
 
 .content {
@@ -79,4 +79,25 @@ i:hover {
 	margin-top: 30px;
 	margin-right: 5px;
 	color: #505050;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: #E8E3E3;
+	height: 4vh;
+}
+
+.left-footer {
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+.right-footer {
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
 }
